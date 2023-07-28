@@ -14,6 +14,7 @@ tags: [githubblog, setting_guide]
 
 ## Ruby 설치
 
+
 ## 로컬에서 블로그 테마 적용 테스트 해보기
 
 ### Jekyll 사이트 레포지토리에 생성하기
