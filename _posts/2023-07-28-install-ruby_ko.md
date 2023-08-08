@@ -40,7 +40,7 @@ Download를 누르면 버전별 Installer를 다운로드 받을 수 있는 사�
 'Assosciate .rb and rbw files with this Ruby installation'
 ![Ruby Install 2](/assets/images/posts/installtheme/1-2install_r2.png)
 
-보시면 설치 옵션 3개 중 2개는 선택사항이되, 기본값
+
 저는 default값 그대로 설정하여 다음 단계로 넘어갔습니다.
 
 ![Ruby Install 3](/assets/images/posts/installtheme/1-2install_r3.png)
