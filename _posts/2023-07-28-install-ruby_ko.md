@@ -43,14 +43,19 @@ Download를 누르면 버전별 Installer를 다운로드 받을 수 있는 사�
 
 ![Ruby Install 2](/assets/images/posts/installtheme/1-2install_r2.png)
 
-[MSYS2는 윈도우 소프트웨어를 실행하거나 설치, 개발하기에 좋은 환경을 구성해주는 일종의 도구 모음입니다.
-Cygwin이라고 하는 오픈소스 툴
-저는 default값 그대로 설정하여 다음 단계로 넘어갔습니다.
+RI는 오프라인 기본 메뉴얼문서(man page)로, 인터넷이 연결되어 있지 않은 환경에서 참조할 수 있는 문서입니다.
 
+[MSYS2][MSYS2Page]는 윈도우 소프트웨어를 실행하거나 설치, 개발하기에 좋은 환경을 구성해주는 일종의 도구 모음입니다.
+Cygwin이라고 하는 오픈소스 툴을 바탕으로 만들어졌는데, 윈도우 환경에서 gcc, mingw-w64, CPython, CMake, OpenSSL, Rust, Ruby에 대한 네이티브 빌드(가상머신상에서가 아닌, 호스트 OS상에서 바로 직접적으로 실행되는 환경)를 제공합니다.
+저는 default값 그대로 둔 채 다음 단계로 넘어갔습니다.
+
+[MSYS2Page]: https://www.msys2.org/
 ![Ruby Install 3](/assets/images/posts/installtheme/1-2install_r3.png)
 
-여기서 MSYS2를 설치하는 옵션이 default로 체크되어있는데 저는 기본값 그대로 설치하는 것으로 하고 Ruby 인스톨러를 끝마쳤습니다.
+여기서 MSYS2를 설치위해 ridk 툴을 실행시키는 옵션이 default로 체크되어있는데 저는 기본값 그대로 하고 Ruby 인스톨러를 끝마쳤습니다.
+ridk는 Ruby의 버전 2.4 이상의 런타임환경을 관리하는 툴입니다.
 
 ![Ruby Install 4](/assets/images/posts/installtheme/1-2install_r4.png)
 
+1번을 선택한 뒤 Enter 키를 누르면 설치가 진행되는 것을 확인할 수 있으며, 'installed properly' 메세지가 뜨면 그냥 Enter 키를 눌러 종료합니다.
 ![Ruby Install 5](/assets/images/posts/installtheme/1-2install_r5.png)
